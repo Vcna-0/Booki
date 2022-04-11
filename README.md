@@ -1,2 +1,2 @@
 # Booki
-OpenClassroom - Parcours "developpeur web" : Projet 2
+OpenClassrooms - Parcours "developpeur web" : Projet 2
