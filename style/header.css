@@ -1,0 +1,61 @@
+header {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  grid-template-areas: "header_logo . header_nav header_signup";
+  max-width: 90rem;
+  margin: auto;
+  align-items: center;
+}
+
+.header__logo {
+  grid-area: header_logo;
+  height: 3rem;
+  padding-left: 1.5625rem;
+}
+
+.header__nav {
+  grid-area: header_nav;
+  display: flex;
+}
+
+.header__nav-link {
+  padding: 2.5625rem 1.5625rem 1.5625rem 1.5625rem;
+  text-decoration: none;
+  border: solid 0.25rem transparent;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.header__nav-link:hover {
+  border-top: solid 0.25rem #0065fc;
+}
+.header__nav-link:active {
+  border-top: solid 0.25rem #0065fc;
+}
+
+.header__signup {
+  grid-area: header_signup;
+  padding: 2.5625rem 1.5625rem 1.5625rem 1.5625rem;
+  text-decoration: none;
+  color: #0065fc;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media all and (max-width: 700px) {
+  header {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "header_logo . header_signup" "header_nav header_nav header_nav";
+    gap: 1.25rem;
+  }
+
+  .header__nav-link {
+    width: 50%;
+    text-align: center;
+    border-bottom: solid 0.25rem #f2f2f2;
+  }
+
+  .header__nav-link:hover {
+    border: solid 0.25rem transparent;
+    border-bottom: solid 0.25rem #0065fc;
+  }
+}
