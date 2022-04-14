@@ -9,3 +9,9 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+
+main {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 2rem;
+}
