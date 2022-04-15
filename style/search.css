@@ -35,3 +35,21 @@ input[type="search"]:focus {
   border: none;
   cursor: pointer;
 }
+
+.filter__btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 3.125rem;
+  border: none;
+}
+
+.filter__btn-img{
+  border-radius: 3.125rem;
+  background-color: #0065fc;
+  padding: 10px;
+}
+
+.filter__btn-img img{
+  height: 30px;
+}
