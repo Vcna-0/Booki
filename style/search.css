@@ -1,16 +1,22 @@
+.search__title{
+  display: flex;
+  flex-direction: column;
+  gap: .4375rem;
+}
+
 .search__form {
   display: flex;
 }
 
 .search__form-img {
-  height: 2.5rem;
+  height: 3rem;
   padding: 0.625rem;
   border-radius: 0.625rem 0px 0px 0.625rem;
   background: #f2f2f2;
 }
 
 .search__form-input {
-  width: 11.25rem;
+  width: 16.25rem;
   border: solid 0.0625rem #f2f2f2;
 }
 
@@ -24,6 +30,7 @@ input[type="search"]:focus {
   padding: 10px 20px;
   border-radius: 0px 0.625rem 0.625rem 0px;
   background-color: #0065fc;
+  font-size: 1rem;
   color: #ffffff;
   border: none;
   cursor: pointer;

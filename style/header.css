@@ -41,11 +41,10 @@ header {
   font-weight: 600;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 640px) {
   header {
     grid-template-columns: auto 1fr auto;
     grid-template-areas: "header_logo . header_signup" "header_nav header_nav header_nav";
-    gap: 1.25rem;
   }
 
   .header__nav-link {
