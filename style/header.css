@@ -16,6 +16,7 @@ header {
 .header__nav {
   grid-area: header_nav;
   display: flex;
+  color: black;
 }
 
 .header__nav-link {
@@ -25,11 +26,14 @@ header {
   font-size: 1rem;
   font-weight: 500;
 }
+
+.header__nav-link:visited {
+  color: black;
+}
+
 .header__nav-link:hover {
   border-top: solid 0.25rem #0065fc;
-}
-.header__nav-link:active {
-  border-top: solid 0.25rem #0065fc;
+  color: #0065fc;
 }
 
 .header__signup {
