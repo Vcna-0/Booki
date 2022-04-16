@@ -1,7 +1,7 @@
 .search{
   display: flex;
   flex-direction: column;
-  gap: 1.875rem;
+  gap: 2.5rem;
 }
 
 .search__title{
@@ -84,4 +84,26 @@ input[type="search"]:focus {
 
 .filter__btn-img svg{
   fill:#0065fc;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.info svg{
+  border: solid 2px #DEEBFF;
+  border-radius: 100%;
+  padding: .1875rem;
+  fill: #0065fc;
+}
+
+@media all and (max-width: 990px){
+
+  .filter{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
 }
