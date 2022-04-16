@@ -1,3 +1,9 @@
+.search{
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
 .search__title{
   display: flex;
   flex-direction: column;
@@ -38,9 +44,14 @@ input[type="search"]:focus {
 
 .filter{
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 1.5625rem;
+  gap: 1.875rem;
+}
+
+.filter__group-btn{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.875rem;
 }
 
 .filter__btn{
