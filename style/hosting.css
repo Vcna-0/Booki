@@ -2,9 +2,11 @@
     max-width: 90rem;
     display: grid;
     grid-template-columns: 6fr 3fr;
+    gap: 1.875rem;
 }
 
-.hosting-main{
+.hosting-main,
+.hosting-popular{
     display: flex;
     flex-direction: column;
     background-color:  #F2F2F2;
@@ -12,24 +14,49 @@
     padding: 1.875rem;
 }
 
+.hosting-main a:only-of-type {
+    font-weight: 600;
+}
+
+.hosting-popular__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .hosting-main__grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5625rem;
+    margin: 2.8125rem 0 2.8125rem 0;
 }
 
-.card{
+.hosting-popular__grid{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    margin: 2.8125rem 0 2.8125rem 0;
+}
+
+.card-hosting,
+.card-popular{
     background-color: white;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-.card a{
+.card-hosting a,
+.card-popular a{
     color: inherit;
     text-decoration: none;
 }
 
-.card__header img{
+.card-popular__header{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-hosting__header img{
     height: 8.125rem;
     width: 100%;
     padding: .3125rem;
@@ -37,18 +64,41 @@
     border-radius: 25px 25px 0 0;
 }
 
-.card__body{
+.card-popular__header img{
+    height: 9.375rem;
+    width: 35%;
+    padding: .3125rem;
+    object-fit: cover;
+    border-radius: 1.5625rem 0 0 1.5625rem;
+}
+
+.card-hosting__body{
     padding: 2px 10px 15px 15px;
     display: flex;
     flex-direction: column;
     gap: .4375rem;
 }
 
-.card__body h2{
+.card-popular__body{
+    padding: .9375rem 3.125rem .9375rem .9375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-popular__title{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+}
+
+.card-hosting__body h2,
+.card-popular__body h2{
     font-size: 1.125rem;
 }
 
-.card__body p{
+.card-hosting__body p,
+.card-popular__body p{
     font-size: .9375rem;
 }
 
@@ -59,3 +109,9 @@
 .fa-star--is-active{
     color: #0065FC;
 }
+
+
+
+
+
+
