@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  padding: 0 2rem;
 }
 
 .search__title{
@@ -40,6 +41,10 @@ input[type="search"]:focus {
   color: #ffffff;
   border: none;
   cursor: pointer;
+}
+
+.search__form-btn:hover{
+  background-color: #0065fcdc;
 }
 
 .search__form-btn--phone{

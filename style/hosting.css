@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: 6fr 3fr;
     gap: 1.875rem;
+    margin: 2.5rem 0 2.5rem 0; 
+    padding: 0 2rem;
 }
 
 .hosting-main,
@@ -12,16 +14,6 @@
     background-color:  #F2F2F2;
     border-radius: 25px;
     padding: 1.875rem;
-}
-
-.hosting-main a:only-of-type {
-    font-weight: 600;
-}
-
-.hosting-popular__title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .hosting-main__grid{
@@ -38,12 +30,45 @@
     margin: 2.8125rem 0 2.8125rem 0;
 }
 
+.hosting-main button {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    width: 8.125rem;
+    cursor: pointer;
+    padding-bottom: 1.875rem;
+}
+
+.hosting-main button span{
+    position: absolute;
+    left: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.hosting-popular__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ========== CARD ========== */
+
 .card-hosting,
 .card-popular{
     background-color: white;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: transform 0.2s;
 }
+
+.card-hosting:hover,
+.card-popular:hover{
+    transform: scale(1.04);
+}
+
 
 .card-hosting a,
 .card-popular a{
@@ -51,10 +76,8 @@
     text-decoration: none;
 }
 
-.card-popular__header{
-    display: flex;
-    flex-direction: row;
-}
+
+/* ========== CARD_HEADER ========== */
 
 .card-hosting__header img{
     height: 8.125rem;
@@ -64,13 +87,27 @@
     border-radius: 25px 25px 0 0;
 }
 
-.card-popular__header img{
+.card-popular__header{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-popular__img{
+    max-width: 35%;
+    min-width: 35%;
     height: 9.375rem;
-    width: 35%;
+}
+
+.card-popular__img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5625rem 0 0 1.5625rem;
     padding: .3125rem;
     object-fit: cover;
-    border-radius: 1.5625rem 0 0 1.5625rem;
 }
+
+
+/* ========== CARD_BODY ==========*/
 
 .card-hosting__body{
     padding: 2px 10px 15px 15px;
@@ -80,7 +117,7 @@
 }
 
 .card-popular__body{
-    padding: .9375rem 3.125rem .9375rem .9375rem;
+    padding: .9375rem 2.8125rem .9375rem .9375rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -94,12 +131,12 @@
 
 .card-hosting__body h2,
 .card-popular__body h2{
-    font-size: 1.125rem;
+    font-size: 1rem;
 }
 
 .card-hosting__body p,
 .card-popular__body p{
-    font-size: .9375rem;
+    font-size: .875rem;
 }
 
 .fa-star{
@@ -110,7 +147,70 @@
     color: #0065FC;
 }
 
+/* ========== MEDIA_QUERIES ==========*/
 
+@media all and (max-width: 1250px) {
+    .card-popular__body{
+        padding: .9375rem 1.875rem .9375rem .9375rem;
+    }
+}
+
+@media all and (max-width: 1160px) {
+    .hosting{
+        grid-template-columns: 1fr;
+    }
+
+    .hosting-popular{
+        order: -1;
+    }
+
+    .hosting-popular__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hosting-popular__title{
+        gap: 1.25rem;
+    }
+}
+
+@media all and (max-width: 990px){
+    .hosting-popular__grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .hosting-main__grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media all and (max-width: 640px){
+
+    .hosting{
+        padding: 0;
+    }
+
+    .hosting-main{
+        border-radius: 0;
+        background-color: white;
+        box-shadow: none;
+    }
+
+    .hosting-popular{
+        border-radius: 0;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, 
+        rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+
+    .hosting-main__grid{
+        grid-template-columns: 1fr;
+    }
+
+    .card-hosting__header img{
+        height: 8.75rem;
+    }
+}
 
 
 
