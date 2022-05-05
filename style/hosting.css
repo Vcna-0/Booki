@@ -46,6 +46,10 @@
     font-weight: 600;
 }
 
+.hosting-main button span:hover{
+    color: #0065fc;
+}
+
 .hosting-popular__title{
     display: flex;
     justify-content: space-between;
