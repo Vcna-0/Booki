@@ -81,7 +81,7 @@ input[type="search"]:focus {
 .filter__btn:hover{
   transform: translateY(5px);
   background-color: #DEEBFF;
-  border-color: #DEEBFF;
+  border-color: transparent;
 }
 
 .filter__btn-img{

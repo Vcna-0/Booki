@@ -47,5 +47,6 @@ footer a{
 
     .footer__column{
         padding: 1.25rem 1.875rem;
+        width: 100%;
     }
 }
