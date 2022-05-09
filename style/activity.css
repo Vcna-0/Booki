@@ -1,9 +1,11 @@
 .activity{
-    max-width: 90rem;
+    
     margin: 4rem 2rem 4rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+
+    /* max-width: 90rem; */
 }
 
 .activity__grid{

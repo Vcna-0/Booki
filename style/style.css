@@ -12,7 +12,10 @@ body {
 
 main {
   max-width: 1440px;
-  margin: 2.5rem auto;
+
+
+  /* margin: 2.5rem auto; */
+  margin: auto;
 }
 
 /* @media all and (max-width: 1250px) */
