@@ -108,6 +108,8 @@ input[type="search"]:focus {
   fill: #0065fc;
 }
 
+/* ========== MEDIA_QUERIES ==========*/
+
 @media all and (max-width: 990px){
 
   .filter{
@@ -116,7 +118,6 @@ input[type="search"]:focus {
   }
 
 }
-
 
 @media all and (max-width: 640px){
   .search__form-btn--phone{
