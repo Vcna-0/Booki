@@ -71,6 +71,9 @@
     font-size: 1.0625rem;
 }
 
+
+/* ========== MEDIA_QUERIES ==========*/ 
+
 @media all and (max-width: 990px){
     .activity__grid{
         grid-template-columns: repeat(4, 1fr);
