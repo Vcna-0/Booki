@@ -121,10 +121,13 @@
 }
 
 .card-popular__body{
-    padding: .9375rem 2.8125rem .9375rem .9375rem;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    /* padding: .9375rem 2.8125rem .9375rem .9375rem; */
+    padding: .9375rem 1.5625rem .9375rem .9375rem;
 }
 
 .card-popular__title{
@@ -153,11 +156,11 @@
 
 /* ========== MEDIA_QUERIES ==========*/
 
-@media all and (max-width: 1250px) {
+/* @media all and (max-width: 1250px) {
     .card-popular__body{
         padding: .9375rem 1.875rem .9375rem .9375rem;
     }
-}
+} */
 
 @media all and (max-width: 1160px) {
     .hosting{
