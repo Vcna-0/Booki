@@ -1,389 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet" />
     <!-- ICONS -->
     <script src="https://kit.fontawesome.com/b3f7717dd0.js" crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/search.css">
-    <link rel="stylesheet" href="style/hosting.css">
-    <link rel="stylesheet" href="style/activity.css">
-    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/search.css" />
+    <link rel="stylesheet" href="style/hosting.css" />
+    <link rel="stylesheet" href="style/activity.css" />
+    <link rel="stylesheet" href="style/footer.css" />
     <title>Booki</title>
+  </head>
 
-</head>
-<body>
+  <body>
     <!-- ***** HEADER *****  -->
     <header>
-        <img class="header__logo" src="/img/booki_logo.svg" alt="">
-        <nav class="header__nav">
-            <a class="header__nav-link" href="#">Hébergement</a>
-            <a class="header__nav-link" href="#">Activités</a>
-        </nav>
-        <a class="header__signup" href="#">S'inscrire</a>
+      <img class="header__logo" src="/img/booki_logo.svg" alt="" />
+      <nav class="header__nav">
+        <a class="header__nav-link" href="#hosting">Hébergement</a>
+        <a class="header__nav-link" href="#activity">Activités</a>
+      </nav>
     </header>
 
     <!-- ***** SEARCH *****  -->
     <main>
-        <section class="search">
-            <div class="search__title">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-            </div>
-            <form class="search__form"> 
-                <img class="search__form-img" src="/img/icon/location-dot-solid.svg" alt="">
-                <input class="search__form-input" type="search" id="site-search" name="q">
-                <button class="search__form-btn search__form-btn--desktop">Rechercher</button>
-                <button class="search__form-btn search__form-btn--phone">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25px" height="25px">
-                        <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/>
-                    </svg>
-                </button>
-            </form>
-            <div class="filter">
-                <h2>Filtres</h2>
-                <div class="filter__group-btn">
-                    <button class="filter__btn">
-                        <i class="filter__btn-img">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="25px" height="25px">
-                                <path d="M48.66 79.13C128.4 100.9 208.2 80.59 288 60.25C375 38.08 462 15.9 549 48.38C565.9 54.69 576 71.62 576 89.66V399.5C576 423.4 550.4 439.2 527.3 432.9C447.6 411.1 367.8 431.4 288 451.7C200.1 473.9 113.1 496.1 26.97 463.6C10.06 457.3 0 440.4 0 422.3V112.5C0 88.59 25.61 72.83 48.66 79.13L48.66 79.13zM287.1 352C332.2 352 368 309 368 255.1C368 202.1 332.2 159.1 287.1 159.1C243.8 159.1 207.1 202.1 207.1 255.1C207.1 309 243.8 352 287.1 352zM63.1 416H127.1C127.1 380.7 99.35 352 63.1 352V416zM63.1 143.1V207.1C99.35 207.1 127.1 179.3 127.1 143.1H63.1zM512 303.1C476.7 303.1 448 332.7 448 368H512V303.1zM448 95.1C448 131.3 476.7 159.1 512 159.1V95.1H448z"/>
-                            </svg>
-                        </i>
-                        Économique
-                    </button>
-                    <button class="filter__btn">
-                        <i class="filter__btn-img">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="25px" height="25px">
-                                <path d="M256 64C256 99.35 227.3 128 192 128C156.7 128 128 99.35 128 64C128 28.65 156.7 0 192 0C227.3 0 256 28.65 256 64zM155.7 170.2C167.3 173.1 179.6 176 192.2 176C232.1 176 269.3 155.8 291 122.4L309.2 94.54C318.8 79.73 338.6 75.54 353.5 85.18C368.3 94.82 372.5 114.6 362.8 129.5L344.7 157.3C326.4 185.4 301.2 207.3 272 221.6V480C272 497.7 257.7 512 240 512C222.3 512 208 497.7 208 480V384H176V480C176 497.7 161.7 512 144 512C126.3 512 112 497.7 112 480V221.4C83.63 207.4 58.94 186.1 40.87 158.1L21.37 129.8C11.57 115 15.54 95.18 30.25 85.37C44.95 75.57 64.82 79.54 74.62 94.25L94.12 123.5C108.5 145 129.2 160.9 152.9 169.3C153.9 169.5 154.8 169.8 155.7 170.2V170.2z"/>
-                            </svg>
-                        </i>
-                        Familial
-                    </button>
-                    <button class="filter__btn">
-                        <i class="filter__btn-img">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25px" height="25px">
-                                <path d="M0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84.02L256 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 .0003 232.4 .0003 190.9L0 190.9z"/>
-                            </svg>
-                        </i>
-                        Romantique
-                    </button>
-                    <button class="filter__btn">
-                        <i class="filter__btn-img">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="25px" height="25px">
-                                <path d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"/>
-                            </svg>
-                        </i>
-                        Animaux autorisés
-                    </button>
-                </div>
-            </div>
-            <div class="info">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" width="25px" height="25px">
-                    <path d="M160 448h-32V224c0-17.69-14.33-32-32-32L32 192c-17.67 0-32 14.31-32 32s14.33 31.1 32 31.1h32v192H32c-17.67 0-32 14.31-32 32s14.33 32 32 32h128c17.67 0 32-14.31 32-32S177.7 448 160 448zM96 128c26.51 0 48-21.49 48-48S122.5 32.01 96 32.01s-48 21.49-48 48S69.49 128 96 128z"/>
+      <section class="search">
+        <div class="search__title">
+          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <form class="search__form">
+          <img class="search__form-img" src="/img/icon/location-dot-solid.svg" alt="" />
+          <input class="search__form-input" type="search" id="site-search" placeholder="Marseille,France" />
+          <button class="search__form-btn search__form-btn--desktop">Rechercher</button>
+          <button class="search__form-btn search__form-btn--phone">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25px" height="25px">
+              <path
+                d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"
+              />
+            </svg>
+          </button>
+        </form>
+        <div class="filter">
+          <h2>Filtres</h2>
+          <div class="filter__group-btn">
+            <button class="filter__btn">
+              <i class="filter__btn-img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="25px" height="25px">
+                  <path
+                    d="M48.66 79.13C128.4 100.9 208.2 80.59 288 60.25C375 38.08 462 15.9 549 48.38C565.9 54.69 576 71.62 576 89.66V399.5C576 423.4 550.4 439.2 527.3 432.9C447.6 411.1 367.8 431.4 288 451.7C200.1 473.9 113.1 496.1 26.97 463.6C10.06 457.3 0 440.4 0 422.3V112.5C0 88.59 25.61 72.83 48.66 79.13L48.66 79.13zM287.1 352C332.2 352 368 309 368 255.1C368 202.1 332.2 159.1 287.1 159.1C243.8 159.1 207.1 202.1 207.1 255.1C207.1 309 243.8 352 287.1 352zM63.1 416H127.1C127.1 380.7 99.35 352 63.1 352V416zM63.1 143.1V207.1C99.35 207.1 127.1 179.3 127.1 143.1H63.1zM512 303.1C476.7 303.1 448 332.7 448 368H512V303.1zM448 95.1C448 131.3 476.7 159.1 512 159.1V95.1H448z"
+                  />
                 </svg>
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>
-            </div>
-        </section>
+              </i>
+              Économique
+            </button>
+            <button class="filter__btn">
+              <i class="filter__btn-img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="25px" height="25px">
+                  <path
+                    d="M256 64C256 99.35 227.3 128 192 128C156.7 128 128 99.35 128 64C128 28.65 156.7 0 192 0C227.3 0 256 28.65 256 64zM155.7 170.2C167.3 173.1 179.6 176 192.2 176C232.1 176 269.3 155.8 291 122.4L309.2 94.54C318.8 79.73 338.6 75.54 353.5 85.18C368.3 94.82 372.5 114.6 362.8 129.5L344.7 157.3C326.4 185.4 301.2 207.3 272 221.6V480C272 497.7 257.7 512 240 512C222.3 512 208 497.7 208 480V384H176V480C176 497.7 161.7 512 144 512C126.3 512 112 497.7 112 480V221.4C83.63 207.4 58.94 186.1 40.87 158.1L21.37 129.8C11.57 115 15.54 95.18 30.25 85.37C44.95 75.57 64.82 79.54 74.62 94.25L94.12 123.5C108.5 145 129.2 160.9 152.9 169.3C153.9 169.5 154.8 169.8 155.7 170.2V170.2z"
+                  />
+                </svg>
+              </i>
+              Familial
+            </button>
+            <button class="filter__btn">
+              <i class="filter__btn-img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25px" height="25px">
+                  <path
+                    d="M0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84.02L256 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 .0003 232.4 .0003 190.9L0 190.9z"
+                  />
+                </svg>
+              </i>
+              Romantique
+            </button>
+            <button class="filter__btn">
+              <i class="filter__btn-img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="25px" height="25px">
+                  <path
+                    d="M332.7 19.85C334.6 8.395 344.5 0 356.1 0C363.6 0 370.6 3.52 375.1 9.502L392 32H444.1C456.8 32 469.1 37.06 478.1 46.06L496 64H552C565.3 64 576 74.75 576 88V112C576 156.2 540.2 192 496 192H426.7L421.6 222.5L309.6 158.5L332.7 19.85zM448 64C439.2 64 432 71.16 432 80C432 88.84 439.2 96 448 96C456.8 96 464 88.84 464 80C464 71.16 456.8 64 448 64zM416 256.1V480C416 497.7 401.7 512 384 512H352C334.3 512 320 497.7 320 480V364.8C295.1 377.1 268.8 384 240 384C211.2 384 184 377.1 160 364.8V480C160 497.7 145.7 512 128 512H96C78.33 512 64 497.7 64 480V249.8C35.23 238.9 12.64 214.5 4.836 183.3L.9558 167.8C-3.331 150.6 7.094 133.2 24.24 128.1C41.38 124.7 58.76 135.1 63.05 152.2L66.93 167.8C70.49 182 83.29 191.1 97.97 191.1H303.8L416 256.1z"
+                  />
+                </svg>
+              </i>
+              Animaux autorisés
+            </button>
+          </div>
+        </div>
+        <div class="info">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" width="25px" height="25px">
+            <path
+              d="M160 448h-32V224c0-17.69-14.33-32-32-32L32 192c-17.67 0-32 14.31-32 32s14.33 31.1 32 31.1h32v192H32c-17.67 0-32 14.31-32 32s14.33 32 32 32h128c17.67 0 32-14.31 32-32S177.7 448 160 448zM96 128c26.51 0 48-21.49 48-48S122.5 32.01 96 32.01s-48 21.49-48 48S69.49 128 96 128z"
+            />
+          </svg>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+      </section>
 
-        <!-- ***** HOSTING *****  -->
-        <section class="hosting">
-            <div class="hosting-main">
-                <h1>Hébergement à Marseille</h1>
-                <div class="hosting-main__grid">
-                    <article class="card-hosting">
-                        <a href="">
-                           <figure class="card-hosting__header">
-                               <img src="/img/hosting/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
-                               <figcaption class="card-hosting__body">
-                                   <h2>Auberge la Cannebière</h2>
-                                   <p>Nuit à partir de <b>25€</b></p>
-                                    <div class="card-hosting__grade">
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                               </figcaption>
-                           </figure>
-                        </a>
-                    </article>
-                    <article class="card-hosting">
-                        <a href="">
-                           <figure class="card-hosting__header">
-                               <img src="/img/hosting/small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
-                               <figcaption class="card-hosting__body">
-                                   <h2>Hôtel du port</h2>
-                                   <p>Nuit à partir de <b>52€</b></p>
-                                    <div class="card-hosting__grade">
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                    </div>
-                               </figcaption>
-                           </figure>
-                        </a>
-                    </article>
-                    <article class="card-hosting">
-                        <a href="">
-                           <figure class="card-hosting__header">
-                               <img src="/img/hosting/small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
-                               <figcaption class="card-hosting__body">
-                                   <h2>Hôtel Les mouettes</h2>
-                                   <p>Nuit à partir de <b>76€</b></p>
-                                    <div class="card-hosting__grade">
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                               </figcaption>
-                           </figure>
-                        </a>
-                    </article>
-                    <article class="card-hosting">
-                        <a href="">
-                           <figure class="card-hosting__header">
-                               <img src="/img/hosting/small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-                               <figcaption class="card-hosting__body">
-                                   <h2>Hôtel de la mer</h2>
-                                   <p>Nuit à partir de <b>46€</b></p>
-                                    <div class="card-hosting__grade">
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                               </figcaption>
-                           </figure>
-                        </a>
-                    </article>
-                    <article class="card-hosting">
-                        <a href="">
-                           <figure class="card-hosting__header">
-                               <img src="/img/hosting/small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
-                               <figcaption class="card-hosting__body">
-                                   <h2>Auberge Le Panier</h2>
-                                   <p>Nuit à partir de <b>23€</b></p>
-                                    <div class="card-hosting__grade">
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                               </figcaption>
-                           </figure>
-                        </a>
-                    </article>
-                    <article class="card-hosting">
-                        <a href="">
-                           <figure class="card-hosting__header">
-                               <img src="/img/hosting/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
-                               <figcaption class="card-hosting__body">
-                                   <h2>Hôtel chez Amina</h2>
-                                   <p>Nuit à partir de <b>25€</b></p>
-                                    <div class="card-hosting__grade">
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                    </div>
-                               </figcaption>
-                           </figure>
-                        </a>
-                    </article>
-                </div>   
-                 <button>
-                     <span>Afficher plus</span>
-                </button>
-            </div>
+      <!-- ***** HOSTING *****  -->
+      <section id="hosting" class="hosting">
+        <div class="hosting-main">
+          <h1>Hébergement à Marseille</h1>
+          <div class="hosting-main__grid">
+            <article class="card-hosting">
+              <a href="">
+                <figure class="card-hosting__header">
+                  <img src="/img/hosting/small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" />
+                  <figcaption class="card-hosting__body">
+                    <h2>Auberge la Cannebière</h2>
+                    <p>Nuit à partir de <b>25€</b></p>
+                    <div class="card-hosting__grade">
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </article>
+            <article class="card-hosting">
+              <a href="">
+                <figure class="card-hosting__header">
+                  <img src="/img/hosting/small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" />
+                  <figcaption class="card-hosting__body">
+                    <h2>Hôtel du port</h2>
+                    <p>Nuit à partir de <b>52€</b></p>
+                    <div class="card-hosting__grade">
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </article>
+            <article class="card-hosting">
+              <a href="">
+                <figure class="card-hosting__header">
+                  <img src="/img/hosting/small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" />
+                  <figcaption class="card-hosting__body">
+                    <h2>Hôtel Les mouettes</h2>
+                    <p>Nuit à partir de <b>76€</b></p>
+                    <div class="card-hosting__grade">
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </article>
+            <article class="card-hosting">
+              <a href="">
+                <figure class="card-hosting__header">
+                  <img src="/img/hosting/small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" />
+                  <figcaption class="card-hosting__body">
+                    <h2>Hôtel de la mer</h2>
+                    <p>Nuit à partir de <b>46€</b></p>
+                    <div class="card-hosting__grade">
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </article>
+            <article class="card-hosting">
+              <a href="">
+                <figure class="card-hosting__header">
+                  <img src="/img/hosting/small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" />
+                  <figcaption class="card-hosting__body">
+                    <h2>Auberge Le Panier</h2>
+                    <p>Nuit à partir de <b>23€</b></p>
+                    <div class="card-hosting__grade">
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </article>
+            <article class="card-hosting">
+              <a href="">
+                <figure class="card-hosting__header">
+                  <img src="/img/hosting/small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" />
+                  <figcaption class="card-hosting__body">
+                    <h2>Hôtel chez Amina</h2>
+                    <p>Nuit à partir de <b>25€</b></p>
+                    <div class="card-hosting__grade">
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </article>
+          </div>
+          <button>
+            <span>Afficher plus</span>
+          </button>
+        </div>
 
-            <div class="hosting-popular">
-                <div class="hosting-popular__title">
-                    <h1>Les plus populaire</h1>
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="hosting-popular__grid">
-                    <article class="card-popular">
-                        <a href="">
-                           <figure class="card-popular__header">
-                                <div class="card-popular__img">
-                                    <img src="/img/hosting/small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
-                                </div>
-                               <figcaption class="card-popular__body">
-                                    <div class="card-popular__title">
-                                        <h2>Hôtel Le soleil du matin</h2>
-                                        <p>Nuit à partir de <b>128€</b></p>
-                                    </div>
-                                    <div class="card-popular__grade">
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                    </div>
-                               </figcaption>
-                           </figure>
-                        </a>
-                    </article>
-                    <article class="card-popular">
-                        <a href="">
-                           <figure class="card-popular__header">
-                                <div class="card-popular__img">
-                                    <img src="/img/hosting/small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
-                                </div>
-                               <figcaption class="card-popular__body">
-                                <div class="card-popular__title">
-                                    <h2>Au coeur de l'eau Chambres d'hôtes</h2>
-                                    <p>Nuit à partir de <b>71€</b></p>
-                                </div>
-                                    <div class="card-popular__grade">
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                               </figcaption>
-                           </figure>
-                        </a>
-                    </article>
-                    <article class="card-popular">
-                        <a href="">
-                           <figure class="card-popular__header">
-                                <div class="card-popular__img">
-                                    <img src="/img/hosting/small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
-                                </div>
-                               <figcaption class="card-popular__body">
-                                    <div class="card-popular__title">
-                                        <h2>Hôtel Tout bleu et Blanc</h2>
-                                        <p>Nuit à partir de <b>68€</b></p>
-                                    </div>
-                                    <div class="card-popular__grade">
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star fa-star--is-active"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                               </figcaption>
-                           </figure>
-                        </a>
-                    </article>
-                </div>
-            </div>
-        </section>
+        <div class="hosting-popular">
+          <div class="hosting-popular__title">
+            <h1>Les plus populaire</h1>
+            <i class="fa-solid fa-star fa-star--popular"></i>
+          </div>
+          <div class="hosting-popular__grid">
+            <article class="card-popular">
+              <a href="">
+                <figure class="card-popular__header">
+                  <div class="card-popular__img">
+                    <img src="/img/hosting/small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" />
+                  </div>
+                  <figcaption class="card-popular__body">
+                    <div class="card-popular__title">
+                      <h2>Hôtel Le soleil du matin</h2>
+                      <p>Nuit à partir de <b>128€</b></p>
+                    </div>
+                    <div class="card-popular__grade">
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </article>
+            <article class="card-popular">
+              <a href="">
+                <figure class="card-popular__header">
+                  <div class="card-popular__img">
+                    <img src="/img/hosting/small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="" />
+                  </div>
+                  <figcaption class="card-popular__body">
+                    <div class="card-popular__title">
+                      <h2>Au coeur de l'eau Chambres d'hôtes</h2>
+                      <p>Nuit à partir de <b>71€</b></p>
+                    </div>
+                    <div class="card-popular__grade">
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </article>
+            <article class="card-popular">
+              <a href="">
+                <figure class="card-popular__header">
+                  <div class="card-popular__img">
+                    <img src="/img/hosting/small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="" />
+                  </div>
+                  <figcaption class="card-popular__body">
+                    <div class="card-popular__title">
+                      <h2>Hôtel Tout bleu et Blanc</h2>
+                      <p>Nuit à partir de <b>68€</b></p>
+                    </div>
+                    <div class="card-popular__grade">
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star fa-star--is-active"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
 
-        <!-- ***** ACTIVITY *****  -->
-        <section class="activity">
-            <h1>Activités à Marseille</h1>
-            <div class="activity__grid">
-                <article class="card-activity card-activity-1">
-                    <a href="">
-                       <figure class="card-activity__header">
-                           <img src="/img/activity/medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
-                           <figcaption class="card-activity__body">
-                               <h2>Vieux Port</h2>
-                           </figcaption>
-                       </figure>
-                    </a>
-                </article>
-                <article class="card-activity card-activity-2">
-                    <a href="">
-                       <figure class="card-activity__header">
-                           <img src="/img/activity/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
-                           <figcaption class="card-activity__body">
-                               <h2>Fort de Pomègues</h2>
-                           </figcaption>
-                       </figure>
-                    </a>
-                </article>
-                <article class="card-activity card-activity-3">
-                    <a href="">
-                       <figure class="card-activity__header">
-                           <img src="/img/activity/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
-                           <figcaption class="card-activity__body">
-                               <h2>Îles du Frioul</h2>
-                           </figcaption>
-                       </figure>
-                    </a>
-                </article>
-                <article class="card-activity card-activity-4">
-                    <a href="">
-                       <figure class="card-activity__header">
-                           <img src="/img/activity/medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
-                           <figcaption class="card-activity__body">
-                               <h2>Parc national des Calanques</h2>
-                           </figcaption>
-                       </figure>
-                    </a>
-                </article>
-                <article class="card-activity card-activity-5">
-                    <a href="">
-                       <figure class="card-activity__header">
-                           <img src="/img/activity/small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
-                           <figcaption class="card-activity__body">
-                               <h2>Notre-Dame-de-la-Garde</h2>
-                           </figcaption>
-                       </figure>
-                    </a>
-                </article>
-                <article class="card-activity card-activity-6">
-                    <a href="">
-                       <figure class="card-activity__header">
-                           <img src="/img/activity/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
-                           <figcaption class="card-activity__body">
-                               <h2>Parc Longchamp</h2>
-                           </figcaption>
-                       </figure>
-                    </a>
-                </article>
-            </div>
-        </section>
+      <!-- ***** ACTIVITY *****  -->
+      <section id="activity" class="activity">
+        <h1>Activités à Marseille</h1>
+        <div class="activity__grid">
+          <article class="card-activity card-activity-1">
+            <a href="">
+              <figure class="card-activity__header">
+                <img src="/img/activity/small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="" />
+                <figcaption class="card-activity__body">
+                  <h2>Vieux Port</h2>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="card-activity card-activity-2">
+            <a href="">
+              <figure class="card-activity__header">
+                <img src="/img/activity/small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="" />
+                <figcaption class="card-activity__body">
+                  <h2>Fort de Pomègues</h2>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="card-activity card-activity-3">
+            <a href="">
+              <figure class="card-activity__header">
+                <img src="/img/activity/small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="" />
+                <figcaption class="card-activity__body">
+                  <h2>Îles du Frioul</h2>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="card-activity card-activity-4">
+            <a href="">
+              <figure class="card-activity__header">
+                <img src="/img/activity/small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="" />
+                <figcaption class="card-activity__body">
+                  <h2>Parc national des Calanques</h2>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="card-activity card-activity-5">
+            <a href="">
+              <figure class="card-activity__header">
+                <img src="/img/activity/small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" />
+                <figcaption class="card-activity__body">
+                  <h2>Notre-Dame-de-la-Garde</h2>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+          <article class="card-activity card-activity-6">
+            <a href="">
+              <figure class="card-activity__header">
+                <img src="/img/activity/small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="" />
+                <figcaption class="card-activity__body">
+                  <h2>Parc Longchamp</h2>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+        </div>
+      </section>
     </main>
 
     <!-- ***** FOOTER *****  -->
     <footer>
-        <div class="footer__box">
-            <div class="footer__main">
-                <div class="footer__column footer__about">
-                    <h1>A propos</h1>
-                    <ul>
-                        <li><a href="">Fonctionnement du site</a></li>
-                        <li><a href="">Conditions générales de vente</a></li>
-                        <li><a href="">Données et confidentialité</a></li>
-                    </ul>
-                </div>
-                <div class="footer__column footer__hosting">
-                    <h1>Nos hébergements</h1>
-                    <ul>
-                        <li><a href="">Charte qualité</a></li>
-                        <li><a href="">Soumettre votre hôtel</a></li>
-                    </ul>
-                </div>
-                <div class="footer__column footer__assistance">
-                <h1>Assistance</h1>
-                <ul>
-                    <li><a href="">Centre d'aide</a></li>
-                    <li><a href="">Nous contacter</a></li>
-                </ul>
-                </div>
-            </div>
+      <div class="footer__box">
+        <div class="footer__main">
+          <div class="footer__column footer__about">
+            <h1>A propos</h1>
+            <ul>
+              <li><a href="">Fonctionnement du site</a></li>
+              <li><a href="">Conditions générales de vente</a></li>
+              <li><a href="">Données et confidentialité</a></li>
+            </ul>
+          </div>
+          <div class="footer__column footer__hosting">
+            <h1>Nos hébergements</h1>
+            <ul>
+              <li><a href="">Charte qualité</a></li>
+              <li><a href="">Soumettre votre hôtel</a></li>
+            </ul>
+          </div>
+          <div class="footer__column footer__assistance">
+            <h1>Assistance</h1>
+            <ul>
+              <li><a href="">Centre d'aide</a></li>
+              <li><a href="">Nous contacter</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

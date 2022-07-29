@@ -1,20 +1,18 @@
 header {
   max-width: 1440px;
-  display: grid;
-  grid-template-columns: auto 1fr auto auto;
-  grid-template-areas: "header_logo . header_nav header_signup";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: auto;
   align-items: center;
 }
 
 .header__logo {
-  grid-area: header_logo;
   height: 3rem;
   padding-left: 1.5625rem;
 }
 
 .header__nav {
-  grid-area: header_nav;
   display: flex;
   color: black;
 }
@@ -51,12 +49,17 @@ header {
 
 @media all and (max-width: 640px) {
   header {
-    grid-template-columns: auto 1fr auto;
-    grid-template-areas: "header_logo . header_signup" "header_nav header_nav header_nav";
+   display: flex;
+   flex-direction: column;
+   padding-top: 2.5rem;
+  }
+
+  .header__nav{
+    width: 100%;
   }
 
   .header__nav-link {
-    width: 50%;
+    width: 100%;
     text-align: center;
     border-bottom: solid 0.25rem #f2f2f2;
   }
