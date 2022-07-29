@@ -15,9 +15,11 @@
   display: flex;
 }
 
-.search__form-img {
+.search__form-icon {
+  display: flex;
+  align-items: center;
   height: 3rem;
-  padding: 0.625rem;
+  padding: .925rem;
   border-radius: 0.625rem 0px 0px 0.625rem;
   background: #f2f2f2;
 }
@@ -93,10 +95,16 @@ input::placeholder {
 }
 
 .filter__btn-img{
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
   border-radius: 3.125rem;
   background-color: #DEEBFF;
-  padding: 10px;
   margin-right: 1.25rem;
+  color:#0065fc;
 }
 
 .filter__btn-img svg{
@@ -109,11 +117,11 @@ input::placeholder {
   gap: 1.25rem;
 }
 
-.info svg{
+.fa-info{
   border: solid 2px #DEEBFF;
   border-radius: 100%;
-  padding: .1875rem;
-  fill: #0065fc;
+  padding: 0.21rem 0.51rem;
+  color: #0065fc;
 }
 
 /* ========== MEDIA_QUERIES ==========*/

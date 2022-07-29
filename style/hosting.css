@@ -184,6 +184,8 @@
 
     .hosting {
         flex-direction: column-reverse;
+
+        margin: 0;
     }
 
     .hosting-main__bloc1,
@@ -193,5 +195,9 @@
 
     .hosting-main {
         background-color: transparent;
+    }
+
+    .hosting-popular{
+        border-radius: 0;
     }
 }
