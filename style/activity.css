@@ -1,4 +1,4 @@
-.activity{
+/* .activity{
     display: flex;
     flex-direction: column;
     margin: 4rem 2rem 4rem 2rem;
@@ -66,13 +66,13 @@
 
 .card-activity__body h2{
     font-size: 1.0625rem;
-}
+} */
 
 
 /* ========== MEDIA_QUERIES ==========*/ 
 
-
-@media all and (max-width: 992px){              /* TABLET */
+/* TABLET */
+/* @media all and (max-width: 992px){              
     .activity__grid{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 15rem);
@@ -95,10 +95,10 @@
     .card-activity-6{
         grid-area: 3 / 3 / 4 / 5; 
     }
-}
+} */
 
-
-@media all and (max-width: 768px){              /* MOBILE */
+ /* MOBILE */
+/* @media all and (max-width: 768px){             
     .activity__grid{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 15rem);
@@ -121,4 +121,5 @@
     .card-activity-6{
         grid-area: 6 / 1 / 7 / 3;
     } 
-}
+} */
+
