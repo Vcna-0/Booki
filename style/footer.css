@@ -1,5 +1,4 @@
 footer{
-    
     background-color: #f2f2f2;
 }
 
@@ -30,8 +29,8 @@ footer a:hover{
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
-    padding: 60px 30px;
     width: 50%;
+    padding: 60px 30px;
 }
 
 .footer__column h1{
@@ -46,7 +45,7 @@ footer a:hover{
 
 /* ========== MEDIA_QUERIES ==========*/
 
-@media all and (max-width: 990px){
+@media all and (max-width: 990px){              /* TABLET */
     .footer__main{
         flex-direction: column;
     }
