@@ -20,13 +20,13 @@
   align-items: center;
   height: 3rem;
   padding: .925rem;
-  border-radius: 0.625rem 0px 0px 0.625rem;
   background: #f2f2f2;
+  border-radius: 0.625rem 0px 0px 0.625rem;
 }
 
 .search__form-input {
-  padding: 0.8rem;
   width: 16.25rem;
+  padding: 0.8rem;
   border: solid 0.0625rem #f2f2f2;
 }
 
@@ -44,13 +44,12 @@ input::placeholder {
 }
 
 .search__form-btn {
-  /* padding: 10px 20px; */
   padding: 15px 15px;
-  border-radius: 0px 0.625rem 0.625rem 0px;
-  background-color: #0065fc;
   font-size: 1rem;
   color: #ffffff;
+  background-color: #0065fc;
   border: none;
+  border-radius: 0px 0.625rem 0.625rem 0px;
   cursor: pointer;
 }
 
@@ -70,7 +69,6 @@ input::placeholder {
 
 .filter__group-btn{
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 1.875rem;
 }
 
@@ -78,34 +76,33 @@ input::placeholder {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-right: 1.25rem;
   font-size: .9375rem;
   font-weight: 600;
   border-radius: 3.125rem;
   border: solid .125rem  #F2F2F2;
   background: none;
   cursor: pointer;
-  padding-right: 1.25rem;
   transition: transform 0.5s, background-color 0.7s;
-
 }
 
 .filter__btn:hover{
-  transform: translateY(5px);
   background-color: #DEEBFF;
   border-color: transparent;
+  transform: translateY(5px);
 }
 
 .filter__btn-img{
-  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 50px;
   height: 50px;
-  border-radius: 3.125rem;
-  background-color: #DEEBFF;
   margin-right: 1.25rem;
-  color:#0065fc;
+  font-size: 22px;
+  color: #0065fc;
+  background-color: #DEEBFF;
+  border-radius: 3.125rem;
 }
 
 .filter__btn-img svg{
@@ -119,15 +116,15 @@ input::placeholder {
 }
 
 .fa-info{
+  padding: 0.21rem 0.51rem;
   border: solid 2px #DEEBFF;
   border-radius: 100%;
-  padding: 0.21rem 0.51rem;
   color: #0065fc;
 }
 
 /* ========== MEDIA_QUERIES ==========*/
 
-@media all and (max-width: 990px){
+@media all and (max-width: 990px){        /* TABLET */
 
   .filter{
     flex-direction: column;
@@ -140,7 +137,7 @@ input::placeholder {
 
 }
 
-@media all and (max-width: 768px){
+@media all and (max-width: 768px){        /* MOBILE */
   .search__form-btn--phone{
     display: block;
     fill: #ffffff;
