@@ -8,7 +8,7 @@ header {
 }
 
 .header__logo {
-  height: 3rem;
+  height: 50px;
   padding-left: 1.5625rem;
 }
 
@@ -18,12 +18,12 @@ header {
 }
 
 .header__nav-link {
-  padding: 2.5625rem 1.5625rem 1.5625rem 1.5625rem;
+  padding: 41px 25px 25px 25px;
   font-size: 1rem;
   font-weight: 500;
   color: inherit;
   text-decoration: none;
-  border: solid 0.25rem transparent;
+  border: solid 4px transparent;
 }
 
 .header__nav-link:visited {
@@ -32,7 +32,7 @@ header {
 
 .header__nav-link:hover {
   color: #0065fc;
-  border-top: solid 0.25rem #0065fc;
+  border-top: solid 4px #0065fc;
 }
 
 /* ========== MEDIA_QUERIES ==========*/
@@ -41,7 +41,7 @@ header {
   header {
    display: flex;
    flex-direction: column;
-   padding-top: 2.5rem;
+   padding-top: 40px;
   }
 
   .header__nav{
@@ -51,11 +51,11 @@ header {
   .header__nav-link {
     width: 100%;
     text-align: center;
-    border-bottom: solid 0.25rem #f2f2f2;
+    border-bottom: solid 4px #f2f2f2;
   }
 
   .header__nav-link:hover {
-    border: solid 0.25rem transparent;
-    border-bottom: solid 0.25rem #0065fc;
+    border: solid 4px transparent;
+    border-bottom: solid 4px #0065fc;
   }
 }
