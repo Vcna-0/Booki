@@ -69,7 +69,7 @@ input::placeholder {
 
 .filter__group-btn{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 1.875rem;
 }
 
@@ -131,6 +131,10 @@ input::placeholder {
   .filter{
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .filter__group-btn {
+    flex-wrap: wrap;
   }
 
 }
