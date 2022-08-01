@@ -125,7 +125,6 @@ input::placeholder {
 /* ========== MEDIA_QUERIES ==========*/
 
 @media all and (max-width: 990px){        /* TABLET */
-
   .filter{
     flex-direction: column;
     align-items: flex-start;
@@ -134,7 +133,6 @@ input::placeholder {
   .filter__group-btn {
     flex-wrap: wrap;
   }
-
 }
 
 @media all and (max-width: 768px){        /* MOBILE */
