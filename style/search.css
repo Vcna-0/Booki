@@ -54,7 +54,7 @@ input::placeholder {
 }
 
 .search__form-btn:hover{
-  background-color: #0065fcdc;
+  opacity: 0.9;
 }
 
 .search__form-btn--phone{
