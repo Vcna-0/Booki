@@ -100,17 +100,17 @@
 
 /* ========== CARD_HEADER ========== */
 
+.card-popular__header {
+    display: flex;
+    flex-direction: row;
+}
+
 .card-hosting__header img {
     height: 8.125rem;
     width: 100%;
     padding: .3125rem;
     border-radius: 25px 25px 0 0;
     object-fit: cover;   
-}
-
-.card-popular__header {
-    display: flex;
-    flex-direction: row;
 }
 
 .card-popular__img {
