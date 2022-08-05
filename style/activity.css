@@ -146,7 +146,7 @@
 .activity__grid{
     display: flex;
     flex-direction: row;
-    height: 600px;
+    /* height: 600px; */
     width: 100%;
     gap: 40px;
 }
@@ -216,4 +216,33 @@
 
 .card-activity__body h2 {
     font-size: 1.0625rem;
+}
+
+@media all and (max-width: 992px){
+    .activity{
+        gap: 40px;
+    }
+    
+    .activity__grid{
+        flex-direction: column;
+    }
+
+    .activity__box{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .card-activity{
+        width: 100%;
+    }
+
+    .card-activity-img{
+        height: 200px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .activity__box {
+            flex-direction: column;
+        }
 }
