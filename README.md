@@ -2,6 +2,8 @@
 
 Ma solution au [PROJET 2 - Transformez une maquette en site web avec HTML & CSS](https://vcna-0.github.io/Booki/) du parcours de formation __developpeur web__ chez Openclassroom.
 
+ ![Booki](./images/logo/Booki.png) 
+
 ## Table des matières
 
 - [Le projet](#le-projet)
@@ -12,7 +14,7 @@ Ma solution au [PROJET 2 - Transformez une maquette en site web avec HTML & CSS]
   - [Palette de couleur](#palette-de-couleur)
   - [Fonts](#fonts)
 - [Mon processus](#mon-processus)
-  - [Outils utilisés](#outils-utilisé)
+  - [Outils et technologies utilisés](#outils-et-technologies-utilisés)
   - [Ressources utiles](#ressources-utiles)
 - [Livrables](#livrables)
   - [Screenshot](#screenshot)
@@ -48,28 +50,41 @@ C'est un site de planification de vacances one-page.
 
 * Spécifications techniques
   * Le site doit être adapté au format desktop et mobile conformément aux maquettes fournies. Même si aucune maquette pour la version tablette n'est fournis, le site doit être adapté au format tablette.
+  * Le code doit être valide aux validateurs W3C (HTML et CSS)
+  * Le site doit être compatible avec les dernières versions de Google Chrome et Mozilla Firefox
 
 ### Contraintes
 
 * Le site doit être intégré en desktop first
-* Utilisation de flexbox fortement recommandé
+* Utilisation de flexbox fortement recommandé plutôt que grid
 * Les frameworks ou préprocesseurs CSS ne doivent pas être utilisés
-* Le code doit être valide aux validateurs W3C (HTML et CSS)
-* Le site doit être compatible avec les dernières versions de Google Chrome et Mozilla Firefox
 
 ### Palette de couleur
 
+`#0065FC` → Bleu
+`#DEEBFF` → Bleu clair
+`F2F2F2`  → Gris
+
 ### Fonts
+
+La police du site est `Raleway`
 
 ## 🔨 Mon processus
 
-### Outils utilisés
+### Outils et technologies utilisés
+
+* VScode
+* Firefox developer
+* Flexbox pour la majorité du site
+* Grid pour la partie activité
 
 ### Ressources utiles
 
 ## 📚 Livrables
 
 ### Screenshot
+
+
 
 ### Notes sur la réalisation
 
