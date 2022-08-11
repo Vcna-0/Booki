@@ -17,7 +17,7 @@ Ma solution au [PROJET 2 - Transformez une maquette en site web avec HTML & CSS]
   - [Outils et technologies utilisés](#outils-et-technologies-utilisés)
   - [Ressources utiles](#ressources-utiles)
 - [Livrables](#livrables)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshot)
   - [Compétences évaluées](#compétences-évaluées)
   - [Notes sur la réalisation](#notes-sur-la-réalisation)
 - [Auteur](#auteur)
@@ -82,9 +82,28 @@ La police du site est `Raleway`
 
 ## 📚 Livrables
 
-### Screenshot
+### Screenshots
 
+<details>
+  <summary>Desktop</summary>
+  <p align="center">
+    <img src="./screenshots/booki-desktop.png" alt=""/>
+  </p>
+</details>
 
+<details>
+  <summary>Tablette</summary>
+  <p align="center">
+    <img src="./screenshots/booki-tablette.png" alt=""/>
+  </p>
+</details>
+
+<details>
+  <summary>Mobile</summary>
+  <p align="center">
+    <img src="./screenshots/booki-mobile.png" alt=""/>
+  </p>
+</details>
 
 ### Notes sur la réalisation
 
