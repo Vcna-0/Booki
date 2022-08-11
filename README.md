@@ -1,6 +1,6 @@
 # Formation developpeur web - OPENCLASSROOM
 
-Ma solution au [Indiquer le numéro de projet et son nom](https://vcna-0.github.io/Booki/) du parcours de formation __developpeur web__ chez Openclassroom.
+Ma solution au [PROJET 2 - Transformez une maquette en site web avec HTML & CSS](https://vcna-0.github.io/Booki/) du parcours de formation __developpeur web__ chez Openclassroom.
 
 ## Table des matières
 
@@ -16,6 +16,7 @@ Ma solution au [Indiquer le numéro de projet et son nom](https://vcna-0.github.
   - [Ressources utiles](#ressources-utiles)
 - [Livrables](#livrables)
   - [Screenshot](#screenshot)
+  - [Compétences évaluées](#compétences-évaluées)
   - [Notes sur la réalisation](#notes-sur-la-réalisation)
 - [Auteur](#auteur)
 
@@ -25,7 +26,16 @@ Ma solution au [Indiquer le numéro de projet et son nom](https://vcna-0.github.
 
 ### Contexte
 
-** Indiquer ici le contexte du projet 
+L'objectif est d'intégrer la maquette en responsive d'un site nommé __"Booki"__. 
+C'est un site de planification de vacances one-page. 
+
+### Éléments fournis pour la réalisation du projet
+
+* Une maquette pour la version desktop
+* Une maquette pour la version mobile
+* Une note de synthèse
+* Les images 
+* Le logo
 
 ### Cahier des charges
 
