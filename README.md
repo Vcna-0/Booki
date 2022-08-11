@@ -39,7 +39,11 @@ C'est un site de planification de vacances one-page.
 
 ### Cahier des charges
 
-** Indiquer ici le cahier des charges
+* Spécifications fonctionnelles
+`* Le champ de recherche est un champ de saisie, le texte
+doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle`
+`* Chaque carte d’hébergement ou d’activité devra être cliquable dans
+son intégralité`
 
 ### Contraintes
 
