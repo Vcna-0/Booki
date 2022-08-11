@@ -61,9 +61,9 @@ C'est un site de planification de vacances one-page.
 
 ### Palette de couleur
 
-`#0065FC` → Bleu
-`#DEEBFF` → Bleu clair
-`F2F2F2`  → Gris
+`#0065FC` → Bleu  
+`#DEEBFF` → Bleu clair  
+`F2F2F2`  → Gris  
 
 ### Fonts
 
