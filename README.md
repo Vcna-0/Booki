@@ -1,6 +1,6 @@
 # Formation developpeur web - OPENCLASSROOM
 
-Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS` du parcours de formation __developpeur web__ chez Openclassroom.
+Ma solution au __PROJET 2 - Transformez une maquette en site web avec HTML & CSS__ du parcours de formation __developpeur web__ chez Openclassroom.
 
 [Visiter le site](https://vcna-0.github.io/Booki/)
 
