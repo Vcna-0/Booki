@@ -9,21 +9,21 @@ Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS`
 
 ## Table des matières
 
-[🚀 Le projet](#🚀le-projet)
+[🚀 Le projet](#🚀le-projet)  
  - [Contexte](#contexte)
  - [Éléments fournis pour la réalisation du projet](#éléments-fournis-pour-la-réalisation-du-projet)
  - [Cahier des charges](#cahier-des-charges)
  - [Contraintes](#contraintes)
  - [Palette de couleur](#palette-de-couleur)
  - [Fonts](#fonts)
-[🔨 Mon processus](#🔨-mon-processus)
+[🔨 Mon processus](#🔨-mon-processus)  
  - [Outils et technologies utilisés](#outils-et-technologies-utilisés)
  - [Les difficultés rencontrées](#les-difficultés-rencontrées)
-[📚 Livrables](#📚-Livrables)
+[📚 Livrables](#📚-Livrables)  
  - [Screenshots](#screenshots)
  - [Compétences évaluées](#compétences-évaluées)
  - [Notes sur la réalisation](#notes-sur-la-réalisation)
-[👷 Auteur](#auteur)
+[👷 Auteur](#auteur)  
 
 
 ## 🚀 Le projet
