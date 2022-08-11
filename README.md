@@ -9,7 +9,7 @@ Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS`
 
 ## Table des matières
 
-- 🚀 Le projet
+- 🚀 ###Le projet
   - [Le contexte](#le-contexte)
   - [Éléments fournis pour la réalisation du projet](#éléments-fournis-pour-la-réalisation-du-projet)
   - [Cahier des charges](#cahier-des-charges)
@@ -24,6 +24,7 @@ Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS`
   - [Compétences évaluées](#compétences-évaluées)
   - [Notes sur la réalisation](#notes-sur-la-réalisation)
 - [👷 Auteur](#auteur)
+
 
 
 ## 🚀 Le projet
