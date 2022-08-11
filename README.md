@@ -46,7 +46,7 @@ C'est un site de planification de vacances one-page.
 ### Cahier des charges
 
 * Spécifications fonctionnelles
-  * :white_check_mark: Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle
+  * :heavy_check_mark: Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle
   * :heavy_check_mark: Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
   * :heavy_check_mark: Les filtres doivent changer d’apparence au survol. Ils ne doivent pas être fonctionnels
   * :heavy_check_mark: Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont des ancres. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
