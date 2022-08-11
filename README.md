@@ -1,8 +1,8 @@
 # Formation developpeur web - OPENCLASSROOM
 
-Ma solution au [PROJET 2 - Transformez une maquette en site web avec HTML & CSS](https://vcna-0.github.io/Booki/) du parcours de formation __developpeur web__ chez Openclassroom.
+Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS`du parcours de formation __developpeur web__ chez Openclassroom.
 
-<a href="vcna-0.github.io/booki/" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="live url">Visiter le site</a>
+[Visiter le site](https://vcna-0.github.io/Booki/)
 
  ![Booki](./images/logo/Booki.png) 
 
