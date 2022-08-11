@@ -25,8 +25,9 @@ Ma solution au __PROJET 2 - Transformez une maquette en site web avec HTML & CSS
   - [Notes sur la réalisation](#notes-sur-la-réalisation)
 - [👷 Auteur](#auteur)
 
-
-
+  
+  
+  
 ## 🚀 Le projet
 
 ### Contexte
