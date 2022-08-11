@@ -46,16 +46,16 @@ C'est un site de planification de vacances one-page.
 ### Cahier des charges
 
 * Spécifications fonctionnelles
-  * :heavy_check_mark: Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle
-  * :heavy_check_mark: Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
-  * :heavy_check_mark: Les filtres doivent changer d’apparence au survol. Ils ne doivent pas être fonctionnels
-  * :heavy_check_mark: Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont des ancres. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
-  * :heavy_check_mark: Les images doivent être choisies au format le plus adapté par rapport à la résolution et au temps de chargement
+  * Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle
+  * Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
+  * Les filtres doivent changer d’apparence au survol. Ils ne doivent pas être fonctionnels
+  * Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont des ancres. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
+  * Les images doivent être choisies au format le plus adapté par rapport à la résolution et au temps de chargement
 
 * Spécifications techniques
-  * :heavy_check_mark: Le site doit être adapté au format desktop et mobile conformément aux maquettes fournies. Même si aucune maquette pour la version tablette n'est fournis, le site doit être adapté au format tablette.
-  * :heavy_check_mark: Le code doit être valide aux validateurs W3C (HTML et CSS)
-  * :heavy_check_mark: Le site doit être compatible avec les dernières versions de Google Chrome et Mozilla Firefox
+  * Le site doit être adapté au format desktop et mobile conformément aux maquettes fournies. Même si aucune maquette pour la version tablette n'est fournis, le site doit être adapté au format tablette.
+  * Le code doit être valide aux validateurs W3C (HTML et CSS)
+  * Le site doit être compatible avec les dernières versions de Google Chrome et Mozilla Firefox
 
 ### Contraintes
 
