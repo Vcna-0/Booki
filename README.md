@@ -1,10 +1,11 @@
 # Formation developpeur web - OPENCLASSROOM
 
-Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS`du parcours de formation __developpeur web__ chez Openclassroom.
+Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS` du parcours de formation __developpeur web__ chez Openclassroom.
 
 [Visiter le site](https://vcna-0.github.io/Booki/)
 
- ![Booki](./images/logo/Booki.png) 
+![Booki](./images/logo/Booki.png) 
+
 
 ## Table des matières
 
@@ -17,13 +18,12 @@ Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS`
   - [Fonts](#fonts)
 - [Mon processus](#mon-processus)
   - [Outils et technologies utilisés](#outils-et-technologies-utilisés)
-  - [Ressources utiles](#ressources-utiles)
+  - [Les difficultés rencontrées](#les-difficultés-rencontrées)
 - [Livrables](#livrables)
   - [Screenshots](#screenshot)
   - [Compétences évaluées](#compétences-évaluées)
   - [Notes sur la réalisation](#notes-sur-la-réalisation)
 - [Auteur](#auteur)
-
 
 
 ## 🚀 Le projet
@@ -38,17 +38,17 @@ C'est un site de planification de vacances one-page.
 * Une maquette pour la version desktop
 * Une maquette pour la version mobile
 * Une note de synthèse
-* Les images 
+* Les images
 * Le logo
 
 ### Cahier des charges
 
 * Spécifications fonctionnelles
-  * Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle
-  * Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
-  * Les filtres doivent changer d’apparence au survol. Ils ne doivent pas être fonctionnels
-  * Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont des ancres. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
-  * Les images doivent être choisies au format le plus adapté par rapport à la résolution et au temps de chargement
+  * :white_check_mark: Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle
+  * :white_check_mark: Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
+  * :white_check_mark: Les filtres doivent changer d’apparence au survol. Ils ne doivent pas être fonctionnels
+  * :white_check_mark: Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont des ancres. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
+  * :white_check_mark: Les images doivent être choisies au format le plus adapté par rapport à la résolution et au temps de chargement
 
 * Spécifications techniques
   * Le site doit être adapté au format desktop et mobile conformément aux maquettes fournies. Même si aucune maquette pour la version tablette n'est fournis, le site doit être adapté au format tablette.
@@ -79,8 +79,11 @@ La police du site est `Raleway`
 * Firefox developer
 * Flexbox pour la majorité du site
 * Grid pour la partie activité
+* Importation des icones avec fontAwesome
 
-### Ressources utiles
+### Les difficultés rencontrées
+
+Petite difficulté rencontré au niveau de la partie « activité » qui a été plus simple pour moi d'intégrer avec grid plutôt qu'avec les flexbox.
 
 ## 📚 Livrables
 
