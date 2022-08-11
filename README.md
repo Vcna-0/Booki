@@ -51,9 +51,9 @@ C'est un site de planification de vacances one-page.
   * :white_check_mark: Les images doivent être choisies au format le plus adapté par rapport à la résolution et au temps de chargement
 
 * Spécifications techniques
-  * Le site doit être adapté au format desktop et mobile conformément aux maquettes fournies. Même si aucune maquette pour la version tablette n'est fournis, le site doit être adapté au format tablette.
-  * Le code doit être valide aux validateurs W3C (HTML et CSS)
-  * Le site doit être compatible avec les dernières versions de Google Chrome et Mozilla Firefox
+  * :white_check_mark: Le site doit être adapté au format desktop et mobile conformément aux maquettes fournies. Même si aucune maquette pour la version tablette n'est fournis, le site doit être adapté au format tablette.
+  * :white_check_mark: Le code doit être valide aux validateurs W3C (HTML et CSS)
+  * :white_check_mark: Le site doit être compatible avec les dernières versions de Google Chrome et Mozilla Firefox
 
 ### Contraintes
 
