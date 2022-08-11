@@ -20,8 +20,8 @@ Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS`
   - [Outils et technologies utilisés](#outils-et-technologies-utilisés)
   - [Les difficultés rencontrées](#les-difficultés-rencontrées)
 - [Livrables](#livrables)
-  - [Screenshots](#screenshot)
-  - [Compétences évaluées](#compétences-évaluées)
+  - [Screenshots](#screenshots)
+  - [Compétences évaluées](#compétences évaluées)
   - [Notes sur la réalisation](#notes-sur-la-réalisation)
 - [Auteur](#auteur)
 
