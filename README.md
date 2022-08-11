@@ -41,12 +41,21 @@ C'est un site de planification de vacances one-page.
 
 * Spécifications fonctionnelles
   * Le champ de recherche est un champ de saisie, le texte doit donc pouvoir être édité par l’utilisateur. La partie recherche ne doit pas être fonctionnelle
-  * Chaque carte d’hébergement ou d’activité devra être cliquable dans
-son intégralité
+  * Chaque carte d’hébergement ou d’activité devra être cliquable dans son intégralité. Pour l’instant les liens seront vides.
+  * Les filtres doivent changer d’apparence au survol. Ils ne doivent pas être fonctionnels
+  * Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont des ancres. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.
+  * Les images doivent être choisies au format le plus adapté par rapport à la résolution et au temps de chargement
+
+* Spécifications techniques
+  * Le site doit être adapté au format desktop et mobile conformément aux maquettes fournies. Même si aucune maquette pour la version tablette n'est fournis, le site doit être adapté au format tablette.
 
 ### Contraintes
 
-*** indiquer ici les contraintes
+* Le site doit être intégré en desktop first
+* Utilisation de flexbox fortement recommandé
+* Les frameworks ou préprocesseurs CSS ne doivent pas être utilisés
+* Le code doit être valide aux validateurs W3C (HTML et CSS)
+* Le site doit être compatible avec les dernières versions de Google Chrome et Mozilla Firefox
 
 ### Palette de couleur
 
