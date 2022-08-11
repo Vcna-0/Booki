@@ -16,7 +16,7 @@ Ma solution au `PROJET 2 - Transformez une maquette en site web avec HTML & CSS`
   - [Contraintes](#contraintes)
   - [Palette de couleur](#palette-de-couleur)
   - [Fonts](#fonts)
-- [Mon processus](#mon-processus)
+- [🔨 Mon processus](#🔨-Mon-processus)
   - [Outils et technologies utilisés](#outils-et-technologies-utilisés)
   - [Les difficultés rencontrées](#les-difficultés-rencontrées)
 - [Livrables](#livrables)
@@ -109,6 +109,8 @@ Petite difficulté rencontré au niveau de la partie « activité » qui a été
     <img src="./screenshots/booki-mobile.png" alt=""/>
   </p>
 </details>
+
+### Compétences évaluées
 
 ### Notes sur la réalisation
 
