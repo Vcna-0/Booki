@@ -176,7 +176,7 @@
 
 @media all and (max-width: 992px) {             /* TABLET */
     .hosting {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 
