@@ -43,9 +43,12 @@ footer a:hover{
     gap: 15px;
 }
 
+
+
+
 /* ========== MEDIA_QUERIES ==========*/
 
-@media all and (max-width: 992px){              /* TABLET */
+@media all and (max-width: 992px){
     .footer__main{
         flex-direction: column;
     }

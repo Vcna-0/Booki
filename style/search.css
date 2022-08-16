@@ -11,6 +11,11 @@
   gap: 7px;
 }
 
+
+
+
+/* ========== FORM ==========*/
+
 .search__form {
   display: flex;
 }
@@ -61,6 +66,11 @@ input::placeholder {
   display: none;
 }
 
+
+
+
+/* ========== FILTER ==========*/
+
 .filter{
   display: flex;
   align-items: center;
@@ -109,6 +119,9 @@ input::placeholder {
   fill:#0065fc;
 }
 
+
+
+
 .info{
   display: flex;
   align-items: center;
@@ -122,9 +135,12 @@ input::placeholder {
   color: #0065fc;
 }
 
+
+
+
 /* ========== MEDIA_QUERIES ==========*/
 
-@media all and (max-width: 990px){        /* TABLET */
+@media all and (max-width: 990px){      
   .filter{
     flex-direction: column;
     align-items: flex-start;
@@ -135,7 +151,7 @@ input::placeholder {
   }
 }
 
-@media all and (max-width: 768px){        /* MOBILE */
+@media all and (max-width: 768px){      
   .search__form-btn--phone{
     display: block;
     fill: #ffffff;

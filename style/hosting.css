@@ -4,6 +4,9 @@
     margin: 64px 32px 64px 32px;
 }
 
+
+
+
 /* ========== HOSTING MAIN BOX ========== */
 
 .hosting-main {
@@ -50,6 +53,9 @@
     color: #0065fc;
 }
 
+
+
+
 /* ========== HOSTING POPULAR BOX ========== */
 
 .hosting-popular__title {
@@ -75,6 +81,8 @@
 }
 
 
+
+
 /* ========== CARD ========== */
 
 .card-hosting,
@@ -96,6 +104,8 @@
     color: inherit;
     text-decoration: none;
 }
+
+
 
 
 /* ========== CARD_HEADER ========== */
@@ -126,6 +136,8 @@
     border-radius: 25px 0 0 25px;
     object-fit: cover;
 }
+
+
 
 
 /* ========== CARD_BODY ==========*/
@@ -172,16 +184,19 @@
     color: #000000;
 }
 
+
+
+
 /* ========== MEDIA_QUERIES ==========*/
 
-@media all and (max-width: 992px) {             /* TABLET */
+@media all and (max-width: 992px) {            
     .hosting {
         flex-direction: column-reverse;
     }
 }
 
 
-@media all and (max-width: 768px) {             /* MOBILE */
+@media all and (max-width: 768px) {     
     .hosting {
         flex-direction: column-reverse;
         margin: 0;
