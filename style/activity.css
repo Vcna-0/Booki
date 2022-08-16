@@ -80,8 +80,6 @@
         grid-template-rows: repeat(3, 240px);
     }
 
-        /* grid-row-start / grid-column-start / grid-row-end / grid-column-end */
-
     .card-activity-1{
         grid-area: 1 / 1 / 2 / 2;
     }
@@ -104,7 +102,7 @@
 
 @media all and (max-width: 768px){
     .activity__grid{
-        grid-template-columns: 1, 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 240px);
     }
 
