@@ -114,6 +114,9 @@ Petite difficulté rencontré au niveau de la partie « activité » qui a été
 
 ### Compétences évaluées
 
+* Implémenter une interface responsive - VALIDÉ
+* Intégrer du contenu conformément à une maquette - VALIDÉ
+
 ### Notes sur la réalisation
 
 ## 👷 Auteur
