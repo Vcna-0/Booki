@@ -22,7 +22,6 @@ Ma solution au __PROJET 2 - Transformez une maquette en site web avec HTML & CSS
 - [📚 Livrables](#livrables)
   - [Screenshots](#screenshots)
   - [Compétences évaluées](#compétences-évaluées)
-  - [Notes sur la réalisation](#notes-sur-la-réalisation)
 - [👷 Auteur](#auteur)
 
   
@@ -114,10 +113,9 @@ Petite difficulté rencontré au niveau de la partie « activité » qui a été
 
 ### Compétences évaluées
 
-* Implémenter une interface responsive - VALIDÉ
-* Intégrer du contenu conformément à une maquette - VALIDÉ
+* Implémenter une interface responsive - __VALIDÉ__
+* Intégrer du contenu conformément à une maquette - __VALIDÉ__
 
-### Notes sur la réalisation
 
 ## 👷 Auteur
 
