@@ -116,12 +116,6 @@ Petite difficulté rencontré au niveau de la partie « activité » qui a été
 * Implémenter une interface responsive - __VALIDÉ__
 * Intégrer du contenu conformément à une maquette - __VALIDÉ__
 
-* Points forts du projet :
-  * projet facile à maintenir 
-  * css sur plusieurs fichiers 
-  * site responsive à 100%
-
-
 ## 👷 Auteur
 
 - Github - [Noëmie](https://github.com/Vcna-0)
